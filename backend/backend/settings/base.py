@@ -29,7 +29,7 @@ SECRET_KEY = '&x$9n4%+7*i%=!cf7o6l32^ny(cg2b@-38%$$z^ghn3lu78x98'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['mjsystem.herokuapp.com']
+ALLOWED_HOSTS = [ 'localhost', 'mjsystem.herokuapp.com']
 
 
 # Application definition
