@@ -36,6 +36,7 @@ ALLOWED_HOSTS = [ 'localhost', 'mjsystem.herokuapp.com']
 
 INSTALLED_APPS = (
     # Django apps
+    'bootstrap_admin',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -46,6 +47,7 @@ INSTALLED_APPS = (
     # Project apps
     'apps.frontend',
     'apps.estoque',
+    'apps.pedido',
 )
 
 MIDDLEWARE_CLASSES = (
